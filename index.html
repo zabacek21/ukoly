@@ -12,11 +12,31 @@
       <section>
 <h2>Přidat úkol</h2>
 <form>
+   <div>
+    <label>Předmět</label>
+    <select>
+      <option value="MAT">Matematika</option>
+      <option value="ČJ">Český jazyk</option>
+      <option value="AJ">Anglický jazyk</option>
+      <option value="ZPD">Základy přírodovědných věd</option>
+      <option value="ZSV">Základy společenských věd</option>
+      <option value="LIT">Literatura</option>
+      <option value="PHW">Počítačový hardware</option>
+      <option value="ICT">Informační a komunikační technologie</option>
+      <option value="PRG">Programování</option>
+      <option value="PRV">Programové vybavení</option>
+    </select>
+  </div>
   <div>
     <label>Popis úkolu</label>
-    <input type="text" required maxlenght="140"
+    <input type="text" required maxlenght="140">
       placeholder="Napiš popis úkolu"
   </div>
+  <div>
+    <label>Termín</label></br>
+    <input type="date" required>
+  </div>
+ 
 </form>
     </section>
     <section>
@@ -25,6 +45,7 @@
   </main>
 </body>
 </html>
+
 
 
 
